@@ -25,6 +25,11 @@ const styles = {
     background-image: ${isLightTheme
       ? "var(--light-theme);"
       : "var(--dark-theme);"};
+    @media only screen and (max-width: 568px) {
+      height: 600px;
+      width: 300px;
+      margin: 30px auto;
+  }  
   `,
   resultWrapper: css`
     position: relative;
